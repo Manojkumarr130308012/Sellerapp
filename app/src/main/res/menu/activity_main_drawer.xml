@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dashboard"
+            android:icon="@drawable/ic_baseline_dashboard"
+            android:iconTint="#000"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/productlisting"
+            android:icon="@drawable/ic_baseline_list"
+            android:iconTint="#000"
+            android:title="Product Listing" />
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/ic_baseline_reorder"
+            android:iconTint="#000"
+            android:title="Orders" />
+
+        <item
+            android:id="@+id/returns"
+            android:icon="@drawable/ic_baseline_rotate"
+            android:iconTint="#000"
+            android:title="Return" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/ic_baseline_payment"
+            android:iconTint="#000"
+            android:title="Payment" />
+        <item
+            android:id="@+id/notifiation"
+            android:icon="@drawable/ic_baseline_notifications"
+            android:iconTint="#000"
+            android:title="Notifiation" />
+        <item
+            android:id="@+id/memberplans"
+            android:icon="@drawable/ic_baseline_card_membership"
+            android:iconTint="#000"
+            android:title="MemberShip Plans" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_baseline_feedback"
+            android:iconTint="#000"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings"
+            android:iconTint="#000"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_exit_to_app"
+            android:iconTint="#000"
+            android:title="Logout" />
+    </group>
+</menu>
